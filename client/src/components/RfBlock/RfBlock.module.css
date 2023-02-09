@@ -1,0 +1,71 @@
+.root {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 620px;
+  margin: 0 30px 20px 30px;
+  position: relative;
+}
+
+.root:hover {
+  border: 1px solid #756868;
+}
+
+.root:hover .editButtons {
+  opacity: 1;
+}
+
+.wrapper {
+  padding: 10px 20px 20px;
+}
+
+.indention {
+  padding-left: 40px;
+}
+
+.button {
+  margin: 10px 0 10px 0;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title a:hover {
+  color: #4361ee;
+}
+
+.editButtons {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+}
+
+.skeleton {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.skeletonInfo {
+  margin-left: 10px;
+}

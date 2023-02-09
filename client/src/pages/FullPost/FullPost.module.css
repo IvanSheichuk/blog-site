@@ -1,0 +1,59 @@
+.root {
+    margin: 15px 20px 15px 20px;
+    text-align: center;
+}
+
+.root .file {
+    margin-top: 50px;
+}
+
+.leftBlock {
+    margin-top: 5px;
+    height: auto;
+    float: left;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+}
+
+.leftBlock .preview {
+    margin-top: 10px;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.leftBlock .title {
+    font-size: 30pt;
+}
+
+.leftBlock .wrapper {
+    height: 100%;
+    margin: 0 30px 0 30px;
+    padding-bottom: 20px;
+}
+
+.leftBlock .tags {
+    display: flex;
+    margin: 0 0 0 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+
+.leftBlock .tags a {
+    margin: 0 0 0 0;
+    text-decoration: none;
+    color: gray;
+}
+
+.leftBlock ul {
+    padding-inline-start: 0;
+}
+
+.leftBlock .postDetails {
+    display: flex;
+    align-items: center;
+}

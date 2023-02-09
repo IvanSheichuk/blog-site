@@ -1,0 +1,165 @@
+.all {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.all button {
+  cursor: pointer;
+}
+
+.leftBlock {
+  display: inline-block;
+  width: 800px;
+}
+
+.leftBlock .uploadPreview {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(231, 172, 94, 1);
+  font-size: 20px;
+  color: rgba(231, 172, 94, 1);
+  border-radius: 5px;
+}
+
+.leftBlock .uploadPreview:hover {
+  background-color: aliceblue;
+}
+
+.leftBlock .delPreview {
+  color: red;
+}
+
+.leftBlock .iconPreview {
+  position: relative;
+  right: 50px;
+  top: 10px;
+  margin: 0;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.leftBlock .iconPreview:hover {
+  opacity: 1;
+}
+
+.leftBlock .save {
+  background-color: rgba(231, 172, 94, 1);
+  color: #fff;
+  font-size: 18pt;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(231, 172, 94, 1);
+}
+
+.rightBlock {
+  display: inline-block;
+  width: 630px;
+  padding-left: 20px;
+  float: right;
+  text-align: center;
+}
+
+.rightBlock button {
+  margin: 0 10px 30px 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(231, 172, 94, 1);
+  font-size: 20px;
+  color: rgba(231, 172, 94, 1);
+  border-radius: 5px;
+}
+
+.rightBlock button:hover {
+  background-color: aliceblue;
+}
+
+.rightBlock .photoOutput {
+  width: 630px;
+  background-color: floralwhite;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.rightBlock .photoOutput .blockPhoto {
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  position: relative;
+}
+
+.rightBlock .photoOutput .blockPhoto .delPic {
+  color: red;
+}
+
+.rightBlock .photoOutput .blockPhoto .iconPic {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.rightBlock .photoOutput .blockPhoto .iconPic:hover {
+  opacity: 1;
+}
+
+.rightBlock .video {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+.rightBlock .file {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.rightBlock input {
+  margin: 10px 0 10px 0;
+  width: 450px;
+}
+
+.title {
+  width: 800px;
+}
+
+.title input {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.title div:before,
+.title div:after {
+  display: none;
+}
+
+.preview {
+  width: 80%;
+  float: left;
+}
+
+.photo {
+  width: 100%;
+}
+
+.tags {
+  width: 800px;
+  margin: 15px 0;
+}
+
+.editor :global .cm-s-easymde {
+  border: 0;
+  font-size: 22px;
+}
+
+.editor :global .editor-toolbar {
+  border: 0;
+  background-color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  margin-right: 15px;
+}

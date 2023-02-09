@@ -1,0 +1,44 @@
+.all {
+  margin-top: 50px;
+}
+
+.allBlock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 600px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons .save {
+  background-color: rgba(231, 172, 94, 1);
+  color: #fff;
+  font-size: 18pt;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid rgba(231, 172, 94, 1);;
+}
+
+.buttons .upload {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(231, 172, 94, 1);
+  font-size: 18pt;
+  margin: 10px;
+  color: rgba(231, 172, 94, 1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons .upload:hover {
+  background-color: aliceblue;
+}
