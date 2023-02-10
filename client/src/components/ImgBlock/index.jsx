@@ -11,7 +11,7 @@ export const ImgBlock = ({ imgUrl }) => {
           onClick={() => {
             window.open(process.env.REACT_APP_BASE_PIC_URL + name);
           }}
-          src={process.env.REACT_APP_BASE_URL + name}
+          src={process.env.REACT_APP_BASE_PIC_URL + name}
         />
       ))}
     </>
