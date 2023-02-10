@@ -259,7 +259,7 @@ export const AddPost = () => {
           <>
             <img
               className={styles.preview}
-              src={process.env.REACT_APP_BASE_PIC_URL + previewUrl}
+              src={process.env.REACT_APP_BASE_URL + previewUrl}
               alt="Uploaded"
             />
             <IconButton
@@ -330,7 +330,7 @@ export const AddPost = () => {
               <img
                 className={styles.photo}
                 alt=""
-                src={REACT_APP_BASE_PIC_URL + name}
+                src={REACT_APP_BASE_URL + name}
               />
               <IconButton
                 className={styles.iconPic}
