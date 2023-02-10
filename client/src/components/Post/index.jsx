@@ -48,7 +48,7 @@ export const Post = ({
       {previewUrl &&
         <img
           className={styles.image}
-          src={process.env.REACT_APP_BASE_URL + previewUrl}
+          src={process.env.REACT_APP_BASE_PIC_URL + previewUrl}
           alt={title}
         />
       }
