@@ -161,8 +161,8 @@ export const AddPost = () => {
 
   const onSubmit = async () => {
     try {
-      if (!previewUrl || !title) {
-        throw new Error("Стаття повинна містити прев'ю та заголовок");
+      if (!title) {
+        throw new Error("Стаття повинна містити заголовок");
       }
 
       const words = upTags(tags.toString().split(" ").join("").split(","));
