@@ -330,7 +330,7 @@ export const AddPost = () => {
               <img
                 className={styles.photo}
                 alt=""
-                src={REACT_APP_BASE_URL + name}
+                src={name}
               />
               <IconButton
                 className={styles.iconPic}
