@@ -29,7 +29,7 @@ export const FullPost = () => {
           {data.previewUrl
               ? <img
                       className={styles.preview}
-                      src={process.env.REACT_APP_BASE_URL + data.previewUrl}
+                      src={process.env.REACT_APP_BASE_PIC_URL + data.previewUrl}
                       alt={data.title}
                   />
               : ""
