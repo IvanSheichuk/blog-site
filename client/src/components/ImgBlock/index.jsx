@@ -9,7 +9,7 @@ export const ImgBlock = ({ imgUrl }) => {
           className={styles.item}
           alt=""
           onClick={() => {
-            window.open(process.env.REACT_APP_BASE_URL + name);
+            window.open(process.env.REACT_APP_BASE_PIC_URL + name);
           }}
           src={process.env.REACT_APP_BASE_URL + name}
         />
