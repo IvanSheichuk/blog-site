@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 const PostSchema = new mongoose.Schema({
   title: {
     type: String,
+    required: true,
     default: "Стаття",
   },
 
@@ -13,7 +14,6 @@ const PostSchema = new mongoose.Schema({
 
   previewUrl: {
     type: String,
-    required: true,
     default: "",
   },
 
